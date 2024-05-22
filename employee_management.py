@@ -1,3 +1,17 @@
+### Firstly, set up your MySQL database and table in MySQL WORKBENCH:
+
+# create database employee_management;
+
+# use employee_management;
+
+# create table employees (
+# id int auto_increment primary key, 
+# first_name varchar(100), 
+# last_name varchar(100),
+# job_role varchar(100),
+# salary decimal(10,2),
+# performance_review text
+# );
 import mysql.connector
 from mysql.connector import Error
 
